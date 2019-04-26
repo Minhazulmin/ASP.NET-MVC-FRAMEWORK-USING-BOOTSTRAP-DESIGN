@@ -1,0 +1,324 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Easy_Learn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+.fa:hover {
+    opacity: 0.7;
+}
+ </style>
+    <environment names="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body>   
+    <nav class="navbar navbar-default navbar-fixed-top" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-2">
+                            <img src="~/images/EASYLEARN2.jpg" width="90" height="90" class="img-responsive"/>
+                        </div>
+                        <center>
+                            <div class="col-md-8">
+                                <img src="~/images/EASYLEARN-M.jpg" width="470" height="90" class="img-responsive" />
+                            </div>
+                        </center>
+                        <div class="col-md-2">
+                            <form class="navbar-form navbar-right">
+
+                                <div class="search">
+                                    <input type="text" class="form-control input-sm" maxlength="100" placeholder="Search" />
+                                    <button type="submit" class="btn btn-primary btn-sm">Search</button>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+             </div>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="//active" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="~/Home">Home</a>
+                        </li>
+                        <li class="" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="">HTML</a>
+                        </li>
+                        <li class="" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="">CSS</a>
+                        </li>
+                        <li class="" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="">Bootstrap</a>
+                        </li>
+                        <li class="" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="">XML</a>
+                        </li>
+                        <li class="" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="">Javascripts</a>
+                        </li>
+                        <li class="" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="">Ajax</a>
+                        </li>
+                        <li class="" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="">PHP</a>
+                        </li>
+                        <li class="" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="">.NET(MVC)</a>
+                        </li>
+                        <li class="" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="">Android</a>
+                        </li>
+                        <li class="dropdown" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="#" class="dropdown-toggle"
+                               data-toggle="dropdown">SQL<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">SQL</a></li>
+                                <li><a href="#">MY SQL</a></li>
+                               
+
+                            </ul>
+                        </li>
+                        <li class="dropdown" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="#" class="dropdown-toggle"
+                               data-toggle="dropdown">Programing<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">C</a></li>
+                                <li><a href="#">C++</a></li>
+                                <li><a href="#">C#</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Java</a></li>
+                                <li><a href="#">Python</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Jquery</a></li>
+                               
+                            </ul>
+                        </li>
+                        <li class="dropdown" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="#" class="dropdown-toggle"
+                               data-toggle="dropdown">Tutorial<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">.Net</a></li>
+                                <li><a href="#">Java</a></li>
+                                <li><a href="#">PHP</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">SqlServer</a></li>
+                                <li><a href="#">MySql</a></li>
+                                <li><a href="#">Oracle</a></li>
+
+                                <li class="divider"></li>
+                                <li><a href="#">Jquery</a></li>
+                                <li><a href="#">JqueryUI</a></li>
+                                <li><a href="#">Bootstrap</a></li>
+                                <li><a href="#">AngularJs</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="#" class="dropdown-toggle"
+                               data-toggle="dropdown">More<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Quiz</a></li>
+                                <li><a href="#">Interview QN</a></li>
+                                <li><a href="#">Education</a></li>
+                                <li><a href="#">Government</a></li>
+                                <li><a href="#">Travels</a></li>
+                                <li><a href="#">SQL</a></li>
+                                <li><a href="#">MY SQL</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li style="border-right:1px solid silver;background-color:#F7F7F9;">
+                            <a href="~/Home/Contact">QN AND ANS</a>
+                        </li>
+
+                        <li style="background-color:#F7F7F9;">
+                            <a href="">Project</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+                <!-- /search code css -->
+              <style>
+                  #search {
+                      float: right;
+                      margin-top: 9px;
+                      width: 250px;
+                  }
+
+                  .search {
+                      padding: 5px 0;
+                      width: 230px;
+                      height: 30px;
+                      position: relative;
+                      left: 25px;
+                      float: left;
+                      line-height: 22px;
+                  }
+
+                      .search input {
+                          position: absolute;
+                          width: 0px;
+                          float: Left;
+                          margin-left: 2210px;
+                          -webkit-transition: all 0.20s ease-in-out;
+                          -moz-transition: all 0.20s ease-in-out;
+                          -o-transition: all 0.20s ease-in-out;
+                          transition: all 0.20s ease-in-out;
+                          height: 30px;
+                          line-height: 18px;
+                          padding: 0 2px 0 2px;
+                          border-radius: 1px;
+                      }
+
+                          .search:hover input, .search input:focus {
+                              width: 200px;
+                              margin-left: 0px;
+                          }
+
+                  .btn {
+                      height: 30px;
+                      position: absolute;
+                      right: 0;
+                      top: 5px;
+                      border-radius: 1px;
+                  }
+
+
+              </style>
+                <!-- /end css search -->
+            </div>
+        </nav>
+    <style>
+        #mySidenav a {
+            position: absolute;left: -80px;transition: 0.3s;padding: 15px;width: 105px;text-decoration: none;font-size: 20px;color: white;border-radius: 0 5px 5px 0;
+        }
+
+            #mySidenav a:hover {
+                left: 0;
+            }
+    </style>
+    
+    <div class="socal_bar" style="top:200px;position: fixed;" >
+        <div id="mySidenav" class="sidenav">
+
+            <a href="#" id="about" style="top: 20px;background-color: #4CAF50;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);">Facebook</a>
+            <a href="#" id="blog" style="top: 80px;background-color: #2196F3;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);">Google</a>
+            <a href="#" id="projects" style="top: 140px;background-color: #f44336;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);">YouTube</a>
+            <a href="#" id="contact" style="top: 200px;background-color: #555;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);">Linkedin</a>
+        </div>
+    </div>
+    <div class="container body-content" style="background-color:#EEEEEE;">
+        @RenderBody()
+    </div>
+            <hr />
+            <footer style="background-color:#F1F1F1;">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2" style="margin-left:5%">
+                            <h4>USEFUL LINKS</h4>
+                            <h5>Frequently Asked Questions</h5>
+                            <h5> Browsers and devices</h5>
+                            <h5>MDB Affiliate Program </h5>
+                            <h5>Students and universities</h5>
+                            <h5>Sponsorship </h5>
+                            <h5> Our Team</h5>
+                        </div>
+                        <div class="col-lg-2" style="margin-left:5%">
+                            <h4>USEFUL LINKS</h4>
+                            <h5>Frequently Asked Questions</h5>
+                            <h5> Browsers and devices</h5>
+                            <h5>MDB Affiliate Program </h5>
+                            <h5>Students and universities</h5>
+                            <h5>Sponsorship </h5>
+                            <h5> Our Team</h5>
+                        </div>
+                        
+                        <div class="col-lg-2" style="margin-left:5%">
+                            <h4>OUR SERVICES</h4>
+                            <h5>Website Development</h5>
+                            <h5> Android Development</h5>
+                            <h5>Website Designing </h5>
+                            <h5>Digital Marketing</h5>
+                            <h5>College Campus Training</h5>
+                            <h5> Our Team</h5>
+                        </div>
+                        <div class="col-lg-2" style="margin-left:5%">
+                            <h4>TUTORIALS</h4>
+                            <h5>Frequently Asked Questions</h5>
+                            <h5> Browsers and devices</h5>
+                            <h5>MDB Affiliate Program </h5>
+                            <h5>Students and universities</h5>
+                            <h5>Sponsorship </h5>
+                            <h5> Our Team</h5>
+
+                        </div>
+                        </div>
+                    <hr />
+                        <p>
+                            <center>
+                                <a href="#" class="fa fa-facebook" style=" background:#59C1F3;color: #ffffff; padding: 20px;font-size: 30px;width: 70px;text-decoration: none;margin: 5px 2px;border-radius: 50%;box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4);"></a>
+                                <a href="#" class="fa fa-twitter" style=" background:#59C1F3;color: #ffffff ; padding: 20px;font-size: 30px;width: 70px;text-decoration: none;margin: 5px 2px;border-radius: 50%;box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4);"></a>
+                                <a href="#" class="fa fa-google" style=" background:#59C1F3;color: #ffffff ; padding: 20px;font-size: 30px;width: 70px;text-decoration: none;margin: 5px 2px;border-radius: 50%;box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4);"></a>
+                                <a href="#" class="fa fa-linkedin" style=" background:#59C1F3;color: #ffffff ; padding: 20px;font-size: 30px;width: 70px;text-decoration: none;margin: 5px 2px;border-radius: 50%;box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4);"></a>
+                                <a href="#" class="fa fa-youtube" style=" background:#59C1F3;color: #ffffff ; padding: 20px;font-size: 30px;width: 70px;text-decoration: none;margin: 5px 2px;border-radius: 50%;box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4);"></a>
+                            </center>
+                        </p>
+                    <hr />
+                    <p>
+                        <center>Copyright &copy; 2017 <i class="fa-heart red"></i>EasyLearn.com<i class="fa-heart red"></i></center>
+                    </p>
+                    </div>
+            </footer>
+        
+
+        <environment names="Development">
+            <script src="~/lib/jquery/dist/jquery.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+            <script src="~/js/site.js" asp-append-version="true"></script>
+        </environment>
+        <environment names="Staging,Production">
+            <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                    asp-fallback-test="window.jQuery"
+                    crossorigin="anonymous"
+                    integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+            </script>
+            <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                    crossorigin="anonymous"
+                    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+            </script>
+            <script src="~/js/site.min.js" asp-append-version="true"></script>
+         
+
+        </environment>
+
+        @RenderSection("Scripts", required: false)
+</body>
+</html>

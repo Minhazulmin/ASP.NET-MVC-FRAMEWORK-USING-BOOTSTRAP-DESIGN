@@ -1,0 +1,45 @@
+c:\users\min\documents\visual studio 2017\Projects\Your_Larn_min\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.deps.json
+c:\users\min\documents\visual studio 2017\Projects\Your_Larn_min\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.runtimeconfig.json
+c:\users\min\documents\visual studio 2017\Projects\Your_Larn_min\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.runtimeconfig.dev.json
+c:\users\min\documents\visual studio 2017\Projects\Your_Larn_min\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.dll
+c:\users\min\documents\visual studio 2017\Projects\Your_Larn_min\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.pdb
+c:\users\min\documents\visual studio 2017\Projects\Your_Larn_min\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.csprojResolveAssemblyReference.cache
+c:\users\min\documents\visual studio 2017\Projects\Your_Larn_min\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.AssemblyInfo.cs
+c:\users\min\documents\visual studio 2017\Projects\Your_Larn_min\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.dll
+c:\users\min\documents\visual studio 2017\Projects\Your_Larn_min\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.pdb
+F:\Your_Larn_min\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.deps.json
+F:\Your_Larn_min\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.runtimeconfig.json
+F:\Your_Larn_min\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.runtimeconfig.dev.json
+F:\Your_Larn_min\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.dll
+F:\Your_Larn_min\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.pdb
+F:\Your_Larn_min\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.csprojResolveAssemblyReference.cache
+F:\Your_Larn_min\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.AssemblyInfo.cs
+F:\Your_Larn_min\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.dll
+F:\Your_Larn_min\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.pdb
+F:\Your_Larn_min - Copy\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.deps.json
+F:\Your_Larn_min - Copy\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.runtimeconfig.json
+F:\Your_Larn_min - Copy\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.runtimeconfig.dev.json
+F:\Your_Larn_min - Copy\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.dll
+F:\Your_Larn_min - Copy\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.pdb
+F:\Your_Larn_min - Copy\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.csprojResolveAssemblyReference.cache
+F:\Your_Larn_min - Copy\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.AssemblyInfo.cs
+F:\Your_Larn_min - Copy\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.dll
+F:\Your_Larn_min - Copy\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.pdb
+F:\Easy_learn\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.deps.json
+F:\Easy_learn\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.runtimeconfig.json
+F:\Easy_learn\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.runtimeconfig.dev.json
+F:\Easy_learn\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.dll
+F:\Easy_learn\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.pdb
+F:\Easy_learn\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.csprojResolveAssemblyReference.cache
+F:\Easy_learn\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.AssemblyInfo.cs
+F:\Easy_learn\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.dll
+F:\Easy_learn\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.pdb
+F:\Easy_learn 17-11-17- Copy\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.deps.json
+F:\Easy_learn 17-11-17- Copy\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.runtimeconfig.json
+F:\Easy_learn 17-11-17- Copy\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.runtimeconfig.dev.json
+F:\Easy_learn 17-11-17- Copy\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.dll
+F:\Easy_learn 17-11-17- Copy\Your_Larn\bin\Debug\netcoreapp1.1\Your_Larn.pdb
+F:\Easy_learn 17-11-17- Copy\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.csprojResolveAssemblyReference.cache
+F:\Easy_learn 17-11-17- Copy\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.AssemblyInfo.cs
+F:\Easy_learn 17-11-17- Copy\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.dll
+F:\Easy_learn 17-11-17- Copy\Your_Larn\obj\Debug\netcoreapp1.1\Your_Larn.pdb

@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\bootstrap.min.css" />
+    <Content Include="wwwroot\images\9376101_orig.jpg" />
+    <Content Include="wwwroot\images\ajax.jpg" />
+    <Content Include="wwwroot\images\android.jpg" />
+    <Content Include="wwwroot\images\bootstrap-stack.png" />
+    <Content Include="wwwroot\images\c program.jpg" />
+    <Content Include="wwwroot\images\CPP.gif" />
+    <Content Include="wwwroot\images\csharp.jpg" />
+    <Content Include="wwwroot\images\css_400x400.png" />
+    <Content Include="wwwroot\images\e-Ticket-logo.png" />
+    <Content Include="wwwroot\images\EASYLEARN-M.jpg" />
+    <Content Include="wwwroot\images\EASYLEARN2.jpg" />
+    <Content Include="wwwroot\images\google-plus.png" />
+    <Content Include="wwwroot\images\HTML AND CSS.jpg" />
+    <Content Include="wwwroot\images\html-basics.jpg" />
+    <Content Include="wwwroot\images\java.jpg" />
+    <Content Include="wwwroot\images\java2.png" />
+    <Content Include="wwwroot\images\JavaScript.png" />
+    <Content Include="wwwroot\images\light-pink-owl-with-bow-owls-pink-owl.jpg" />
+    <Content Include="wwwroot\images\MVC.jpg" />
+    <Content Include="wwwroot\images\mysql.png" />
+    <Content Include="wwwroot\images\pc-com.jpg" />
+    <Content Include="wwwroot\images\php.jpg" />
+    <Content Include="wwwroot\images\php_logo_Tutorial.png" />
+    <Content Include="wwwroot\images\play-button2.png" />
+    <Content Include="wwwroot\images\Programming-Languages-1.jpg" />
+    <Content Include="wwwroot\images\project-1287781_960_720.jpg" />
+    <Content Include="wwwroot\images\pythonlogo.jpg" />
+    <Content Include="wwwroot\images\qn n ans.png" />
+    <Content Include="wwwroot\images\Result-Is-Out.png" />
+    <Content Include="wwwroot\images\sql.jpg" />
+    <Content Include="wwwroot\images\tv-internet.jpg" />
+    <Content Include="wwwroot\images\valentine-owl-clipart-images-pictures-becuo-1MXtj2-clipart_19180.jpg" />
+    <Content Include="wwwroot\images\WP_20150401_14_40_23_Pro.jpg" />
+    <Content Include="wwwroot\images\xml.jpg" />
+    <Content Include="wwwroot\images\Xml_logo.svg.png" />
+    <Content Include="wwwroot\js\bootstrap.min.js" />
+    <Content Include="wwwroot\js\clock.js" />
+    <Content Include="wwwroot\js\clock2.js" />
+    <Content Include="wwwroot\js\jquery.min.js" />
+    <Content Include="wwwroot\js\jssor.slider-26.5.0.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
